@@ -35,3 +35,8 @@ Then, you can just run `python train.py` and trained network checkpoints will st
 Point `visualize.py` to an array of generations in your `generations` folder (an array is created every 50 epochs) by setting `array_to_visualize` equal to its path. 
 
 This script will allow you to see the models that network has generated in 3D, with the option to save as PNG, obj, etc.
+
+# Issues / Future efforts
+
+Right now, the main issue is the fact that it's very hard to get data for this sort of project; the only two datasets I have encountered are shapnet and thingi10k; currently; i am trying to train a conditional version of the 3d GAN with shapenet so that you can select that you want to generate a table, chair, etc, and the network will move past just generating "shapes"...
+
