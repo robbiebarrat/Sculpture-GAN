@@ -1,7 +1,6 @@
 '''
 3D GAN using Keras (based on DCGAN) - written by Robbie Barrat (robbiebarrat@gmail.com)
 Dependencies: tensorflow 1.0 and keras 2.0
-Usage: python3 dcgan_mnist.py
 '''
 
 import numpy as np
