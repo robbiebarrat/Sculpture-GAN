@@ -1,5 +1,13 @@
 # Sculpture-GAN
-3D DCGAN inspired GAN trained on 32x32x32 voxelizations of [Thingi10k](https://ten-thousand-models.appspot.com/) - a corpus of 10,000 3D printable objects and sculptures - as a result, the generated sculptures are almost always 3D-printable.
+3D DCGAN inspired GAN trained on 32x32x32 voxelizations of [Thingi10k](https://ten-thousand-models.appspot.com/) - a corpus of 10,000 3D printable objects and sculptures - as a result, the generated sculptures are almost always 3D-printable, but usually do not have any real 'meaning', and are just abstract sorts of shapes.
+
+# Example generations
+
+
+
+
+
+
 
 # Usage
 
@@ -19,4 +27,6 @@ Then, you can just run `python train.py` and trained network checkpoints will st
 
 ## visualize.py
 
-Point `visualize.py` to a generator checkpoint, and it will allow you to see the models it can generate, with the option to save as PNG, obj, etc.
+Point `visualize.py` to an array of generations in your `generations` folder (an array is created every 50 epochs) by setting `array_to_visualize` equal to its path. 
+
+This script will allow you to see the models that network has generated in 3D, with the option to save as PNG, obj, etc.
