@@ -1,6 +1,8 @@
 # Sculpture-GAN
 3D DCGAN inspired GAN trained on 32x32x32 voxelizations of [Thingi10k](https://ten-thousand-models.appspot.com/) - a corpus of 10,000 3D printable objects and sculptures - as a result, the generated sculptures are almost always 3D-printable, but usually do not have any real 'meaning', and are just abstract sorts of shapes.
 
+I originally began this project as an attempt at generative architecture; but lack of an appropriate dataset held me back from that. Currently working with trying to get something usable from the google sketchup 3d workshop
+
 # Example abstract shape generations (scroll down further for program usage)
 
 ## 3D-printed generation
