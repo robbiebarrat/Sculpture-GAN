@@ -3,7 +3,7 @@
 
 I originally began this project as an attempt at generative architecture; but lack of an appropriate dataset held me back from that. Currently working with trying to get something usable from the google sketchup 3d workshop
 
-# Example abstract shape generations (scroll down further for program usage)
+# Example abstract shape generations
 
 ## 3D-printed generation
 
